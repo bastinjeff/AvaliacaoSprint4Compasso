@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Atividade_EFCore
 {
-	class Funcionarios
+	public class Funcionarios
 	{
+		public Guid Id { get; set; }
+		public string Nome { get; set; }
+		public Cidades Cidade { get; set; }
 	}
 }
