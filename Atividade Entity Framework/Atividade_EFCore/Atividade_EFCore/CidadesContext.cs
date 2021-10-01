@@ -9,11 +9,17 @@ namespace Atividade_EFCore
 {
 	class CidadesContext : DbContext
 	{
+		string StringConexao;
 		public DbSet<Cidades> cidades { get; set; }
 		public DbSet<Funcionarios> funcionarios { get; set; }
+
+		public CidadesContext(string StringConexao)
+		{
+			this.StringConexao = StringConexao;
+		}
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 		{
-			optionsBuilder.UseSqlServer("Data Source=localhost\\SQLEXPRESS;Database=Cidades;Integrated Security=True;Connect Timeout=5;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+			optionsBuilder.UseSqlServer(StringConexao);
 		}
 
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
