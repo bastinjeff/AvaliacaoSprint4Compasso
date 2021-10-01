@@ -1,5 +1,7 @@
 CREATE DATABASE IF NOT EXISTS minimercado;
 
+USE minimercado;
+
 CREATE TABLE CategoriaDeProduto(
 	Id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
 	Categoria VARCHAR(100) NOT NULL
