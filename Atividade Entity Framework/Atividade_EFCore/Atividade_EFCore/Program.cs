@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 
 namespace Atividade_EFCore
 {
@@ -8,9 +9,10 @@ namespace Atividade_EFCore
 		{
 			using (var contexto = new CidadesContext())
 			{
-				foreach(var item in contexto.cidades)
+				var funcionarioCCidade = contexto.funcionarios.Include(f => f.Cidade);
+				foreach(var item in funcionarioCCidade)
 				{
-					Console.WriteLine(item.Nome);
+					Console.WriteLine(item.Nome + ":" + item.Cidade.Nome);
 				}
 			}
 		}

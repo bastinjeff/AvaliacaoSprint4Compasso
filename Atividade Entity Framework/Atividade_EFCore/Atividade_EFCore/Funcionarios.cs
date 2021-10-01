@@ -10,6 +10,7 @@ namespace Atividade_EFCore
 	{
 		public Guid Id { get; set; }
 		public string Nome { get; set; }
+		public DateTime DataNascimento { get; set; }
 		public Cidades Cidade { get; set; }
 	}
 }

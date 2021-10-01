@@ -14,6 +14,7 @@ namespace Atividade_EFCore
 		public float TaxaCriminalidade { get; set; }
 		public float ImpostoSobreProduto { get; set; }
 		public bool EstadoCalamidade { get; set; }
+		public List<Funcionarios> funcionarios { get; set; }
 
 	}
 }

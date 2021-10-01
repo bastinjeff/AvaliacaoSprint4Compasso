@@ -41,6 +41,11 @@ namespace Atividade_EFCore
 			builder
 				.Property(Cidade => Cidade.EstadoCalamidade)
 				.HasColumnType("bit");
+
+			/*builder
+				.HasMany(c => c.funcionarios)
+				.WithOne(f => f.Cidade)
+				.HasForeignKey("CidadeId");*/
 		}
 	}
 }
