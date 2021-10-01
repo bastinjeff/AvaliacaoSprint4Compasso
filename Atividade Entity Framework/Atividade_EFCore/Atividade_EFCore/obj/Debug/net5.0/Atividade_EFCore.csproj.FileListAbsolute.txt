@@ -1,0 +1,16 @@
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade Entity Framework\Atividade_EFCore\Atividade_EFCore\bin\Debug\net5.0\Atividade_EFCore.exe
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade Entity Framework\Atividade_EFCore\Atividade_EFCore\bin\Debug\net5.0\Atividade_EFCore.deps.json
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade Entity Framework\Atividade_EFCore\Atividade_EFCore\bin\Debug\net5.0\Atividade_EFCore.runtimeconfig.json
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade Entity Framework\Atividade_EFCore\Atividade_EFCore\bin\Debug\net5.0\Atividade_EFCore.runtimeconfig.dev.json
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade Entity Framework\Atividade_EFCore\Atividade_EFCore\bin\Debug\net5.0\Atividade_EFCore.dll
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade Entity Framework\Atividade_EFCore\Atividade_EFCore\bin\Debug\net5.0\ref\Atividade_EFCore.dll
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade Entity Framework\Atividade_EFCore\Atividade_EFCore\bin\Debug\net5.0\Atividade_EFCore.pdb
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade Entity Framework\Atividade_EFCore\Atividade_EFCore\obj\Debug\net5.0\Atividade_EFCore.csprojAssemblyReference.cache
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade Entity Framework\Atividade_EFCore\Atividade_EFCore\obj\Debug\net5.0\Atividade_EFCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade Entity Framework\Atividade_EFCore\Atividade_EFCore\obj\Debug\net5.0\Atividade_EFCore.AssemblyInfoInputs.cache
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade Entity Framework\Atividade_EFCore\Atividade_EFCore\obj\Debug\net5.0\Atividade_EFCore.AssemblyInfo.cs
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade Entity Framework\Atividade_EFCore\Atividade_EFCore\obj\Debug\net5.0\Atividade_EFCore.csproj.CoreCompileInputs.cache
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade Entity Framework\Atividade_EFCore\Atividade_EFCore\obj\Debug\net5.0\Atividade_EFCore.dll
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade Entity Framework\Atividade_EFCore\Atividade_EFCore\obj\Debug\net5.0\ref\Atividade_EFCore.dll
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade Entity Framework\Atividade_EFCore\Atividade_EFCore\obj\Debug\net5.0\Atividade_EFCore.pdb
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade Entity Framework\Atividade_EFCore\Atividade_EFCore\obj\Debug\net5.0\Atividade_EFCore.genruntimeconfig.cache
