@@ -6,7 +6,13 @@ namespace Atividade_EFCore
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			using (var contexto = new CidadesContext())
+			{
+				foreach(var item in contexto.cidades)
+				{
+					Console.WriteLine(item.Nome);
+				}
+			}
 		}
 	}
 }
