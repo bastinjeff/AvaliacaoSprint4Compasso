@@ -15,33 +15,40 @@ namespace Atividade_API_REST.Controllers
 		static int ContadorHipotetico = 0;
 
 		[HttpPost]
-		public void AdicionaPokemon([FromBody] Pokemon pokemon)
+		public IActionResult AdicionaPokemon([FromBody] Pokemon pokemon)
 		{
 			ContadorHipotetico++;
-			pokemon.Codigo = ContadorHipotetico;					
+			pokemon.Codigo = ContadorHipotetico;
 			PokemonsCadastrados.Add(pokemon);
 			Console.WriteLine("Pokemon Novo Adicionado");
+			return CreatedAtAction(nameof(RecuperaPokemonPorId), new { Id = pokemon.Codigo }, pokemon);
 		}
 
 		[HttpGet]
-		public IEnumerable<Pokemon> RecuperaTodosOsPokemons()
+		public IActionResult RecuperaTodosOsPokemons()
 		{
 			Console.WriteLine("Retornando Todos os Pokemons");
-			return PokemonsCadastrados;
+			return Ok(PokemonsCadastrados);
 		}
 
 		[HttpGet("{id}")]
-		public Pokemon RecuperaPokemonPorId(int Id)
+		public IActionResult RecuperaPokemonPorId(int Id)
 		{
 			Console.WriteLine("Retornando Pokemon de Id {0}", Id);
-			return PokemonsCadastrados.Find(P => P.Codigo == Id);
+			Pokemon Retornado = PokemonsCadastrados.FirstOrDefault(P => P.Codigo == Id);
+			if(Retornado == null)
+			{
+				return NotFound();
+			}
+			return Ok(Retornado);
 		}
 
 		[HttpDelete("{id}")]
-		public void DeletaPokemonPorId(int Id)
+		public IActionResult DeletaPokemonPorId(int Id)
 		{
 			Console.WriteLine("Deletando Pokemon de Id {0}", Id);
 			PokemonsCadastrados.Remove(PokemonsCadastrados.Find(P => P.Codigo == Id));
+			return NoContent();
 		}
 	}
 }
