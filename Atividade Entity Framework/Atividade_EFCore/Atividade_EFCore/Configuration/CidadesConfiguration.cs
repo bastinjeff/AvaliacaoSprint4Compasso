@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Atividade_EFCore.Models;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
@@ -6,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Atividade_EFCore
+namespace Atividade_EFCore.Configuration
 {
 	class CidadesConfiguration : IEntityTypeConfiguration<Cidades>
 	{
@@ -22,30 +23,31 @@ namespace Atividade_EFCore
 			builder
 				.Property(Cidade => Cidade.Nome)
 				.HasColumnName("Nome")
-				.HasColumnType("varchar(max)")
-				.IsRequired();
+				.HasColumnType("varchar(max)");
 
 			builder
 				.Property(Cidade => Cidade.Populacao)
 				.HasColumnName("Populacao")
-				.HasColumnType("int");
+				.HasColumnType("int")
+				.IsRequired();
 
 			builder
 				.Property(Cidade => Cidade.TaxaCriminalidade)
-				.HasColumnType("float");
+				.HasColumnType("float")
+				.IsRequired();
 
 			builder
 				.Property(Cidade => Cidade.ImpostoSobreProduto)
-				.HasColumnType("float");
+				.HasColumnType("float")
+				.IsRequired();
 
 			builder
 				.Property(Cidade => Cidade.EstadoCalamidade)
-				.HasColumnType("bit");
+				.HasColumnType("bit")
+				.IsRequired();
 
-			/*builder
-				.HasMany(c => c.funcionarios)
-				.WithOne(f => f.Cidade)
-				.HasForeignKey("CidadeId");*/
+			builder
+				.Property<DateTime>("UltimaAtualizacao");
 		}
 	}
 }

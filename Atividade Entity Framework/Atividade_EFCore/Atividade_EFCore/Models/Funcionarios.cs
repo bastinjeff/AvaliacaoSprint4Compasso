@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Atividade_EFCore
+namespace Atividade_EFCore.Models
 {
 	public class Funcionarios
 	{
@@ -12,5 +12,6 @@ namespace Atividade_EFCore
 		public string Nome { get; set; }
 		public DateTime DataNascimento { get; set; }
 		public Cidades Cidade { get; set; }
+		public List<FuncoesFuncionarios> Funcoes { get; set; }
 	}
 }

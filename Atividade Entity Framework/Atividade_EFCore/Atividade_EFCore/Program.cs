@@ -7,14 +7,26 @@ namespace Atividade_EFCore
 	{
 		static void Main(string[] args)
 		{
-			using (var contexto = new CidadesContext("Data Source=localhost\\SQLEXPRESS;Database=Cidades;Integrated Security=True;Connect Timeout=5;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"))
+			var stringConexao = "Data Source=localhost" +
+				"\\SQLEXPRESS;Database=Cidades;" +
+				"Integrated Security=True;" +
+				"Connect Timeout=5;" +
+				"Encrypt=False;" +
+				"TrustServerCertificate=False;" +
+				"ApplicationIntent=ReadWrite;" +
+				"MultiSubnetFailover=False";
+			using (var contexto = new CidadesContext(stringConexao))
 			{
-				var funcionarioCCidade = contexto.funcionarios.Include(f => f.Cidade);
-				foreach(var item in funcionarioCCidade)
+				var sql = "select * from VW_ALL_FUNCIONARIOS";
+
+				var RetornoView = contexto.ViewAllFuncionarios.FromSqlRaw(sql);
+
+				foreach (var item in RetornoView)
 				{
-					Console.WriteLine(item.Nome + ":" + item.Cidade.Nome);
+					Console.WriteLine(item.Nome + ":" + item.CidadeId);
 				}
 			}
 		}
 	}
 }
+

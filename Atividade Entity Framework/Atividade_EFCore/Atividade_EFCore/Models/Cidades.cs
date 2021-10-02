@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Atividade_EFCore
+namespace Atividade_EFCore.Models
 {
 	public class Cidades
 	{
@@ -15,6 +15,8 @@ namespace Atividade_EFCore
 		public float ImpostoSobreProduto { get; set; }
 		public bool EstadoCalamidade { get; set; }
 		public List<Funcionarios> funcionarios { get; set; }
+
+		public List<PrefeitosAtuais> prefeitosAtuais { get; set; }
 
 	}
 }
