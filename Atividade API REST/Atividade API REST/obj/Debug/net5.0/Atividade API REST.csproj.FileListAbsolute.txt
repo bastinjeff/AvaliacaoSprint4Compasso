@@ -1,0 +1,29 @@
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade API REST\Atividade API REST\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade API REST\Atividade API REST\bin\Debug\net5.0\appsettings.json
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade API REST\Atividade API REST\bin\Debug\net5.0\Atividade API REST.exe
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade API REST\Atividade API REST\bin\Debug\net5.0\Atividade API REST.deps.json
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade API REST\Atividade API REST\bin\Debug\net5.0\Atividade API REST.runtimeconfig.json
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade API REST\Atividade API REST\bin\Debug\net5.0\Atividade API REST.runtimeconfig.dev.json
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade API REST\Atividade API REST\bin\Debug\net5.0\Atividade API REST.dll
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade API REST\Atividade API REST\bin\Debug\net5.0\ref\Atividade API REST.dll
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade API REST\Atividade API REST\bin\Debug\net5.0\Atividade API REST.pdb
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade API REST\Atividade API REST\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade API REST\Atividade API REST\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade API REST\Atividade API REST\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade API REST\Atividade API REST\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade API REST\Atividade API REST\obj\Debug\net5.0\Atividade API REST.csprojAssemblyReference.cache
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade API REST\Atividade API REST\obj\Debug\net5.0\Atividade API REST.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade API REST\Atividade API REST\obj\Debug\net5.0\Atividade API REST.AssemblyInfoInputs.cache
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade API REST\Atividade API REST\obj\Debug\net5.0\Atividade API REST.AssemblyInfo.cs
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade API REST\Atividade API REST\obj\Debug\net5.0\Atividade API REST.csproj.CoreCompileInputs.cache
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade API REST\Atividade API REST\obj\Debug\net5.0\Atividade API REST.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade API REST\Atividade API REST\obj\Debug\net5.0\Atividade API REST.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade API REST\Atividade API REST\obj\Debug\net5.0\staticwebassets\Atividade API REST.StaticWebAssets.Manifest.cache
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade API REST\Atividade API REST\obj\Debug\net5.0\staticwebassets\Atividade API REST.StaticWebAssets.xml
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade API REST\Atividade API REST\obj\Debug\net5.0\scopedcss\bundle\Atividade API REST.styles.css
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade API REST\Atividade API REST\obj\Debug\net5.0\Atividade API REST.RazorTargetAssemblyInfo.cache
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade API REST\Atividade API REST\obj\Debug\net5.0\Atividade API REST.csproj.CopyComplete
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade API REST\Atividade API REST\obj\Debug\net5.0\Atividade API REST.dll
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade API REST\Atividade API REST\obj\Debug\net5.0\ref\Atividade API REST.dll
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade API REST\Atividade API REST\obj\Debug\net5.0\Atividade API REST.pdb
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade API REST\Atividade API REST\obj\Debug\net5.0\Atividade API REST.genruntimeconfig.cache

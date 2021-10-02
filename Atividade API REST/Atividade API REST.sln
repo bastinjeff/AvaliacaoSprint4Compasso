@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atividade API REST", "Atividade API REST\Atividade API REST.csproj", "{9C8FD5C6-5D2A-4CE7-9B6A-3785D5DBD07A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C8FD5C6-5D2A-4CE7-9B6A-3785D5DBD07A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C8FD5C6-5D2A-4CE7-9B6A-3785D5DBD07A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C8FD5C6-5D2A-4CE7-9B6A-3785D5DBD07A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C8FD5C6-5D2A-4CE7-9B6A-3785D5DBD07A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8D1F699-4BE9-4EB5-93EE-01F92734B596}
+	EndGlobalSection
+EndGlobal
