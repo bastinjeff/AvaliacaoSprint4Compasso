@@ -2,6 +2,7 @@
 using Atividade_EFCore.Models;
 using Atividade_EFCore.Views;
 using Microsoft.EntityFrameworkCore;
+using Atividade_EFCore.Stored_Procedures;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,8 +20,8 @@ namespace Atividade_EFCore
 		public DbSet<Funcoes> funcoes { get; set; }
 		public DbSet<PrefeitosAtuais> prefeitosAtuais { get; set; }
 		public DbSet<FuncoesFuncionarios> funcoesFuncionarios { get; set; }
-
 		public DbSet<VW_ALL_FUNCIONARIOS> ViewAllFuncionarios { get; set; }
+		public DbSet<SP_ADD_CIDADE> SPAddCidade { get; set; }
 
 		public CidadesContext(string StringConexao)
 		{

@@ -47,7 +47,7 @@ namespace Atividade_EFCore.Configuration
 				.IsRequired();
 
 			builder
-				.Property<DateTime>("UltimaAtualizacao");
+				.Property<DateTime>("UltimaAtualizacao");			
 		}
 	}
 }
