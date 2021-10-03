@@ -20,16 +20,49 @@ namespace Atividade_NoSQL.Controllers
 		[HttpPost]
 		public IActionResult ReceberPOST([FromBody]Pedido pedido)
 		{			
-			Console.WriteLine(pedido.orderID);
 			InserirPedidoDataBase(StringConexaoMongoDB, NomeDatabase, NomeColecao, pedido);
-			return Ok();
+			return NoContent();
+		}
+
+		[HttpGet("Todos")]
+		public IActionResult ListarTodosOsPedidos()
+		{
+			var TodosOsPedidos = RetornaTodosOsPedidos(StringConexaoMongoDB, NomeDatabase, NomeColecao).Result;			
+			return Ok(TodosOsPedidos);
+		}
+
+		[HttpGet]
+		public IActionResult ListaPedidosPaginados([FromQuery(Name = "pageNumber")]int pageNumber, [FromQuery(Name = "pageSize")] int pageSize)
+		{
+			var ColecaoPaginada = RetornaListaPedidoPaginada(StringConexaoMongoDB, NomeDatabase, NomeColecao, pageNumber, pageSize).Result;
+			return Ok(ColecaoPaginada);
+		}
+
+		private async Task<List<Pedido>> RetornaListaPedidoPaginada(string StringConexao, string NomeDatabase, string NomeColecao,
+																		int pageNumber, int pageSize)
+		{
+			var ColecaoPedidos = RetornaTodosOsPedidos(StringConexao, NomeDatabase, NomeColecao).Result;
+			var ColecaoPaginada = ColecaoPedidos.Skip((pageNumber-1) * pageSize).Take(pageSize).ToList();
+			return ColecaoPaginada;
+		}
+		private async Task<List<Pedido>> RetornaTodosOsPedidos(string StringConexao, string NomeDatabase, string NomeColecao)
+		{
+			var ColecaoPedidos = RetornaColecaoPedidosMongoDB(StringConexao, NomeDatabase, NomeColecao);
+			var TodosOsPedidos = await ColecaoPedidos.Find(X => true).ToListAsync();
+			return TodosOsPedidos;
 		}
 		private async Task InserirPedidoDataBase(string StringConexao, string NomeDatabase, string NomeColecao, Pedido PedidoRecebido)
 		{
-			var Servidor = AbrirConexaoComMongoDB(StringConexao);
-			var BancoPedidos = AbrirConexaoComDatabaseMongoDB(Servidor);
-			var ColecaoPedidos = AbrirConexaoComColecaoMongoDB(BancoPedidos);
+			var ColecaoPedidos = RetornaColecaoPedidosMongoDB(StringConexao, NomeDatabase, NomeColecao);
 			await ColecaoPedidos.InsertOneAsync(PedidoRecebido);
+		}
+
+		private IMongoCollection<Pedido> RetornaColecaoPedidosMongoDB(string StringConexao, string NomeDatabase, string NomeColecao)
+		{
+			var Servidor = AbrirConexaoComMongoDB(StringConexao);
+			var BancoPedidos = AbrirConexaoComDatabaseMongoDB(Servidor, NomeDatabase);
+			var ColecaoPedidos = AbrirConexaoComColecaoMongoDB(BancoPedidos, NomeColecao);
+			return ColecaoPedidos;
 		}
 
 		private IMongoClient AbrirConexaoComMongoDB(string StringConexao)
@@ -37,12 +70,12 @@ namespace Atividade_NoSQL.Controllers
 			return new MongoClient(StringConexao);
 		}
 
-		private IMongoDatabase AbrirConexaoComDatabaseMongoDB(IMongoClient Servidor)
+		private IMongoDatabase AbrirConexaoComDatabaseMongoDB(IMongoClient Servidor, string NomeDatabase)
 		{
 			return Servidor.GetDatabase(NomeDatabase);
 		}
 
-		private IMongoCollection<Pedido> AbrirConexaoComColecaoMongoDB(IMongoDatabase BancoPedidos)
+		private IMongoCollection<Pedido> AbrirConexaoComColecaoMongoDB(IMongoDatabase BancoPedidos, string NomeColecao)
 		{
 			return BancoPedidos.GetCollection<Pedido>(NomeColecao);
 		}
