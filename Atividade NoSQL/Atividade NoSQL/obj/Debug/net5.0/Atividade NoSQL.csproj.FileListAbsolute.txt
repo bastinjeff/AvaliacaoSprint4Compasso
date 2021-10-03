@@ -1,0 +1,44 @@
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\bin\Debug\net5.0\appsettings.json
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\bin\Debug\net5.0\snappy32.dll
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\bin\Debug\net5.0\snappy64.dll
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\bin\Debug\net5.0\libzstd.dll
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\bin\Debug\net5.0\Atividade NoSQL.exe
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\bin\Debug\net5.0\Atividade NoSQL.deps.json
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\bin\Debug\net5.0\Atividade NoSQL.runtimeconfig.json
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\bin\Debug\net5.0\Atividade NoSQL.runtimeconfig.dev.json
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\bin\Debug\net5.0\Atividade NoSQL.dll
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\bin\Debug\net5.0\ref\Atividade NoSQL.dll
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\bin\Debug\net5.0\Atividade NoSQL.pdb
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\bin\Debug\net5.0\DnsClient.dll
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\bin\Debug\net5.0\MongoDB.Bson.dll
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\bin\Debug\net5.0\MongoDB.Driver.dll
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\bin\Debug\net5.0\MongoDB.Driver.Core.dll
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\bin\Debug\net5.0\SharpCompress.dll
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\bin\Debug\net5.0\runtimes\win\native\libzstd.dll
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\bin\Debug\net5.0\runtimes\win\native\snappy32.dll
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\bin\Debug\net5.0\runtimes\win\native\snappy64.dll
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\obj\Debug\net5.0\Atividade NoSQL.csprojAssemblyReference.cache
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\obj\Debug\net5.0\Atividade NoSQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\obj\Debug\net5.0\Atividade NoSQL.AssemblyInfoInputs.cache
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\obj\Debug\net5.0\Atividade NoSQL.AssemblyInfo.cs
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\obj\Debug\net5.0\Atividade NoSQL.csproj.CoreCompileInputs.cache
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\obj\Debug\net5.0\Atividade NoSQL.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\obj\Debug\net5.0\Atividade NoSQL.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\obj\Debug\net5.0\staticwebassets\Atividade NoSQL.StaticWebAssets.Manifest.cache
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\obj\Debug\net5.0\staticwebassets\Atividade NoSQL.StaticWebAssets.xml
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\obj\Debug\net5.0\scopedcss\bundle\Atividade NoSQL.styles.css
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\obj\Debug\net5.0\Atividade NoSQL.RazorTargetAssemblyInfo.cache
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\obj\Debug\net5.0\Atividade NoSQL.csproj.CopyComplete
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\obj\Debug\net5.0\Atividade NoSQL.dll
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\obj\Debug\net5.0\ref\Atividade NoSQL.dll
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\obj\Debug\net5.0\Atividade NoSQL.pdb
+C:\Users\jrfri\Documents\GitHub\AvaliacaoSprint4Compasso\Atividade NoSQL\Atividade NoSQL\obj\Debug\net5.0\Atividade NoSQL.genruntimeconfig.cache
