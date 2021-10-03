@@ -17,15 +17,16 @@ namespace Atividade_EFCore
 				"TrustServerCertificate=False;" +
 				"ApplicationIntent=ReadWrite;" +
 				"MultiSubnetFailover=False";
+
 			using (var Contexto = new CidadesContext(stringConexao))
 			{
 				Console.WriteLine("<<Chamando View VW_ALL_FUNCIONARIOS>>:");
 				MostrarVW_ALL_FUNCIONARIOS(Contexto);
-				Console.WriteLine("<Pressione Enter para Realizar a SP_ADD_CIDADE>");
+				Console.WriteLine("\n<Pressione Enter para Realizar a SP_ADD_CIDADE>");
 				Console.ReadLine();
 				Console.Clear();
 				RealizaProcedureSP_ADD_CIDADE(Contexto);
-				Console.WriteLine("<SP realizada com Sucesso, Pressione enter para finalizar>");
+				Console.WriteLine("\n<SP realizada com Sucesso, Pressione enter para finalizar>");
 				Console.ReadLine();
 			}
 			
@@ -59,7 +60,7 @@ namespace Atividade_EFCore
 					UltimaAtualizacao = item.UltimaAtualizacao.ToString();
 				}
 				else UltimaAtualizacao = "NULL";
-				Console.WriteLine("Id = {0} \n    Nome = {1} \n    DataNascimento = {2} \n    CidadeId = {3} \n    UltimaAtualizacao = {4}\n\n".Trim(), 
+				Console.WriteLine("Id = {0} \n    Nome = {1} \n    DataNascimento = {2} \n    CidadeId = {3} \n    UltimaAtualizacao = {4}\n\n", 
 					item.Id, 
 					item.Nome, 
 					item.DataNascimento, 
