@@ -10,6 +10,7 @@ namespace Atividade_NoSQL.Models
 	public class Pedido
 	{
 		[BsonRepresentation(BsonType.ObjectId)]
+		[BsonId]
 		public string Id { get; set; }
 		public string orderID { get; set; }
 		public DateTime eventDate { get; set; }

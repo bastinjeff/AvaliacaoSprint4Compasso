@@ -17,6 +17,8 @@ namespace Atividade_NoSQL.Controllers
 		string StringConexaoMongoDB = "mongodb://localhost:27017";
 		string NomeDatabase = "PedidosDatabase";
 		string NomeColecao = "Pedidos";
+
+		//Exemplo de Rota: localhost:5000/api/Mongo
 		[HttpPost]
 		public IActionResult ReceberPOST([FromBody]Pedido pedido)
 		{			
@@ -24,6 +26,7 @@ namespace Atividade_NoSQL.Controllers
 			return NoContent();
 		}
 
+		//Exemplo de Rota: localhost:5000/api/Mongo/Todos
 		[HttpGet("Todos")]
 		public IActionResult ListarTodosOsPedidos()
 		{
@@ -31,11 +34,13 @@ namespace Atividade_NoSQL.Controllers
 			return Ok(TodosOsPedidos);
 		}
 
+		//Exemplo de Rota: localhost:5000/api/Mongo?pageNumber=1&pageSize=2
 		[HttpGet]
 		public IActionResult ListaPedidosPaginados([FromQuery(Name = "pageNumber")]int pageNumber, [FromQuery(Name = "pageSize")] int pageSize)
 		{
 			var ColecaoPaginada = RetornaListaPedidoPaginada(StringConexaoMongoDB, NomeDatabase, NomeColecao, pageNumber, pageSize).Result;
-			return Ok(ColecaoPaginada);
+			var ResultadoPaginado = new PedidoPaginado(pageNumber,pageSize,ColecaoPaginada);
+			return Ok(ResultadoPaginado);
 		}
 
 		private async Task<List<Pedido>> RetornaListaPedidoPaginada(string StringConexao, string NomeDatabase, string NomeColecao,
