@@ -22,9 +22,9 @@ namespace Atividade_NoSQL.Controllers
 		[HttpPost]
 		public IActionResult ReceberPOST([FromBody]Pedido pedido)
 		{			
-			OperacoesMongoDBMongoController.
-				InserirPedidoDataBase(StringConexaoMongoDB, NomeDatabase, NomeColecao, pedido);
-			return NoContent();
+			var PedidoResposta = OperacoesMongoDBMongoController.
+				InserirPedidoDataBase(StringConexaoMongoDB, NomeDatabase, NomeColecao, pedido).Result;
+			return CreatedAtAction(nameof(BuscaPedidoPorId), new { Id = PedidoResposta.Id }, PedidoResposta);
 		}
 
 		//Exemplo de Rota: localhost:5001/api/Mongo/Todos
@@ -44,6 +44,14 @@ namespace Atividade_NoSQL.Controllers
 				RetornaListaPedidoPaginada(StringConexaoMongoDB, NomeDatabase, NomeColecao, pageNumber, pageSize).Result;
 			var ResultadoPaginado = new PedidoPaginado(pageNumber,pageSize,ColecaoPaginada);
 			return Ok(ResultadoPaginado);
+		}
+
+		//Exemplo de Rota: localhost:5001/api/Mongo/615a4976764e352ba724c410
+		[HttpGet("{Id}")]
+		public IActionResult BuscaPedidoPorId(string Id)
+		{
+			var PedidoRetornado = OperacoesMongoDBMongoController.RetornaPedidoComFiltroId(StringConexaoMongoDB, NomeDatabase, NomeColecao, Id).Result;
+			return Ok(PedidoRetornado);
 		}
 		
 	}
